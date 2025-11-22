@@ -2,8 +2,8 @@
   <defs>
     <style>
       @keyframes type {
-        from { width: 0ch; }
-        to { width: 15ch; }
+        0% { clip-path: inset(0 100% 0 0); }
+        100% { clip-path: inset(0 0 0 0); }
       }
 
       @keyframes fadein {
@@ -12,7 +12,7 @@
       }
 
       .headline-text {
-        font-family: "JetBrains Mono", monospace;
+        font-family: "Fira Code", monospace;
         font-size: 48px;
         font-weight: 400;
         text-anchor: middle;
@@ -28,7 +28,7 @@
       }
 
       .tagline-text {
-        font-family: "JetBrains Mono", monospace;
+        font-family: "Fira Code", monospace;
         font-size: 24px;
         font-weight: 400;
         text-anchor: middle;
@@ -55,8 +55,6 @@
   </defs>
 
   <text class="headline-text" x="400" y="60">Hi, I'm Steven!</text>
-
-  <rect class="separator-line" x="200" y="83" width="400" height="3" rx="1.5" fill="url(#separatorGradient)" />
-
+  <rect class="separator-line" x="150" y="83" width="500" height="3" rx="1.5" fill="url(#separatorGradient)" />
   <text class="tagline-text" x="400" y="125">Software Engineer | Gamer | Writer</text>
 </svg>
