@@ -3,27 +3,35 @@
     <style>
       @keyframes type {
         0% { clip-path: inset(0 100% 0 0); }
-        100% { clip-path: inset(0 0 0 0); }
+        40% { clip-path: inset(0 0 0 0); }
+        40%, 80% { opacity: 1; }
+        100% { opacity: 0; }
       }
 
-      @keyframes fadein {
-        from { opacity: 0; }
-        to { opacity: 0.8; }
+      @keyframes fadeInSeparator {
+        0%, 50% { opacity: 0; }
+        55%, 80% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      @keyframes fadeInTagline {
+        0%, 58% { opacity: 0; }
+        63%, 80% { opacity: 1; }
+        100% { opacity: 0; }
       }
 
       .headline-text {
         font-family: "Fira Code", monospace;
         font-size: 48px;
-        font-weight: 400;
+        font-weight: 500;
         text-anchor: middle;
-        fill: url(#goldGradient);
-        animation: type 1.5s steps(15, end) forwards;
+        fill: url(#headlineGradient);
+        animation: type 6s steps(15, end) infinite;
         letter-spacing: 2px;
       }
 
       .separator-line {
-        animation: fadein 1.2s forwards;
-        animation-delay: 1.5s;
+        animation: fadeInSeparator 6s infinite;
         opacity: 0;
       }
 
@@ -33,13 +41,12 @@
         font-weight: 400;
         text-anchor: middle;
         fill: #e1c27f;
-        animation: fadein 1.2s forwards;
-        animation-delay: 1.7s;
+        animation: fadeInTagline 6s infinite;
         opacity: 0;
       }
     </style>
 
-    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="headlineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#8c6a28;stop-opacity:1" />
       <stop offset="25%" style="stop-color:#a07b2d;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#b8903a;stop-opacity:1" />
