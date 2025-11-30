@@ -56,7 +56,7 @@ A web puzzle game inspired by *Blue Prince*.
 <summary><strong>EEDF – Data Visualization (2019)</strong></summary>
 
 Collaborated with *Éclaireuses Éclaireurs de France* (a French laic scouting association) to create **interactive maps** for their activity report.  
-Maps built with **Leaflet** & **Mapbox** 🗺️
+[Check here!](https://sdurrenmatt.github.io/eedf) Maps built with **Leaflet** & **Mapbox** 🗺️
 
 </details>
 
