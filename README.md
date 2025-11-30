@@ -41,7 +41,7 @@ Outside of work, I'm a **gamer** and **writer**, and I even made my own **Mora J
 ## 🎮 Side Projects
 
 <details>
-<summary><strong>Mora Jai (2025)</strong></summary>
+<summary><strong>Mora Jai - Puzzle Game (2025)</strong></summary>
 
 A web puzzle game inspired by *Blue Prince*.  
 [Play here!](https://sdurrenmatt.github.io/mora-jai)  
@@ -53,7 +53,7 @@ A web puzzle game inspired by *Blue Prince*.
 </details>
 
 <details>
-<summary><strong>EEDF – Data Visualization (2019)</strong></summary>
+<summary><strong>EEDF – Interactive Maps (2019)</strong></summary>
 
 Collaborated with *Éclaireuses Éclaireurs de France* (a French laic scouting association) to create **interactive maps** for their activity report.  
 [Check here!](https://sdurrenmatt.github.io/eedf) Maps built with **Leaflet** & **Mapbox** 🗺️
