@@ -32,7 +32,7 @@ Outside of work, I'm a **gamer** and **writer**, and I even made my own **Mora J
 <details>
 <summary><strong>CGI – Apprentice Engineer (2014 – 2016)</strong></summary>
 
-- Java web developer on **SIEL Bus project** for RATP transportation system
+- Java web developer on the **SIEL Bus project** for the RATP transportation system
 - Developed a reporting web app and automated key processes
 - Turned it into a **critical operational tool**
 
@@ -55,7 +55,7 @@ A web puzzle game inspired by *Blue Prince*.
 <details>
 <summary><strong>EEDF – Data Visualization (2019)</strong></summary>
 
-Collaborated with *Éclaireuses Éclaireurs de France* (a French laic scouting association) to create **interactive maps** for their financial report.  
+Collaborated with *Éclaireuses Éclaireurs de France* (a French laic scouting association) to create **interactive maps** for their activity report.  
 Maps built with **Leaflet** & **Mapbox** 🗺️
 
 </details>
